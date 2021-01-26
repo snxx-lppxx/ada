@@ -1,7 +1,6 @@
+-- ./src/ada.adb
 with Ada.Text_IO;
-procedure helloworld is 
-
+procedure start is 
 begin
-Ada.Text_IO.Put("Ada one love");
-
-end helloworld;
+	Ada.Text_IO.Put("Program starting...");
+end start;
